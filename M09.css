@@ -13,7 +13,7 @@ body{
 	font-weight: bold;
 	font-size: 24px;
 	transition: 0.6s ease;
-	border-radius: 7 7px 7px 7;
+	border-radius: 7px 7px 7px 7px;
 }
 .next {
   right: 0;
