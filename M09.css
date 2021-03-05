@@ -1,0 +1,50 @@
+body{
+	background-color:lightblue;
+}
+.next, .prev{
+	background-color:white;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 20px;
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+	transition: 0.6s ease;
+	border-radius: 7 7px 7px 7;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);
+  color:blue;
+}
+img{
+	height:600px;
+	width:900px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+h1{
+	text-align:center;
+	margin-top:10px;
+}
+h2{
+	text-align:center;
+}
+.text {
+	text-align:center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgb(123, 137, 255);
+	margin-left:200px;
+	margin-right:200px;
+	font: 20px;
+}
+
